@@ -1,4 +1,4 @@
-// 윤년 확인하는 코드
+// 윤년 확인하는 코드.
 
 public class Main {
     public static void main(String[] args) {
