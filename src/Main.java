@@ -35,4 +35,14 @@ public class Main {
         if (year % 4 == 0) return true;
         return false;
     }
+// 369 게임
+    public static String is369(int cnt) {
+        int a = cnt / 10;
+        int b = cnt % 10;
+        String str = (b % 3 == 0 && b != 0) ? "*" : "";
+        if (a == 0)
+            return str;
+
+        return str + is369(a);
+    }
 }
