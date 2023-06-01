@@ -2,7 +2,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
-//    윤년 구하기
     @org.junit.jupiter.api.Test
     void checkLeapYear() {
         assertEquals(false, MyUtils.checkLeapYear(1700));
@@ -14,7 +13,7 @@ class MainTest {
         assertEquals(false, MyUtils.isLeapYear(1900));
         assertEquals(true, MyUtils.isLeapYear(2400));
     }
-//  369 게임
+
     @org.junit.jupiter.api.Test
     void testis369() {
         assertEquals("*", MyUtils.is369(3));
